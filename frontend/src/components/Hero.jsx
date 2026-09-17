@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="hero">
+    <section id="home" className="hero">
 
       <div className="hero-content">
 
@@ -9,14 +9,23 @@ function Hero() {
         </div>
 
         <h1>
-          Explore the World of
-          <span>Artificial Intelligence</span>
+          BUILD
+          <span>EXPLORE</span>
+          INNOVATE
         </h1>
 
+        <h2>
+          Artificial Intelligence
+          <br />
+          Machine Learning
+          <br />
+          LLM Applications
+        </h2>
+
         <p>
-          Welcome to AI LAB — a centralized hub for exploring
-          AI assistants, machine learning projects, LLM
-          applications, and experimental models.
+          Welcome to AI LAB — a collection of practical
+          AI projects, intelligent assistants and
+          machine learning experiments built with Python.
         </p>
 
         <div className="hero-buttons">
@@ -41,17 +50,17 @@ function Hero() {
 
         <div className="hero-stats">
 
-          <div>
+          <div className="stat">
             <strong>04+</strong>
             <span>AI Projects</span>
           </div>
 
-          <div>
+          <div className="stat">
             <strong>03+</strong>
             <span>AI Assistants</span>
           </div>
 
-          <div>
+          <div className="stat">
             <strong>Python</strong>
             <span>Core Technology</span>
           </div>
@@ -65,13 +74,29 @@ function Hero() {
         <div className="ai-orb">
 
           <div className="orb-core">
-            AI
+            <span>AI</span>
           </div>
 
           <div className="orb-ring ring-one"></div>
           <div className="orb-ring ring-two"></div>
           <div className="orb-ring ring-three"></div>
 
+        </div>
+
+        <div className="floating-card card-one">
+          <span>◈</span>
+          <div>
+            <strong>LLM</strong>
+            <small>Intelligence</small>
+          </div>
+        </div>
+
+        <div className="floating-card card-two">
+          <span>⌘</span>
+          <div>
+            <strong>Python</strong>
+            <small>AI Development</small>
+          </div>
         </div>
 
       </div>

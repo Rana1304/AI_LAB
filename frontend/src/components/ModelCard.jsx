@@ -27,6 +27,19 @@ function ModelCard({ model }) {
           View Details →
         </Link>
 
+        {model.demo && model.demo !== "#" ? (
+          <a
+            href={model.demo}
+            className="demo-btn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Live Demo →
+          </a>
+        ) : (
+          <span className="demo-btn disabled">Demo Coming Soon</span>
+        )}
+
         <a
           href={model.github}
           className="code-btn"

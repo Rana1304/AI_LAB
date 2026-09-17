@@ -25,7 +25,7 @@ const models = [
       "Get Intelligent Answers",
     ],
 
-    demo: "#",
+    demo: null,
     github: "https://github.com/Rana1304/AI_PYTHON",
   },
 
@@ -53,7 +53,7 @@ const models = [
       "Personalized Response",
     ],
 
-    demo: "#",
+    demo: null,
     github: "https://github.com/Rana1304/AI_PYTHON",
   },
 
@@ -81,7 +81,7 @@ const models = [
       "Fashion Recommendation",
     ],
 
-    demo: "#",
+    demo: null,
     github: "https://github.com/Rana1304/AI_PYTHON",
   },
 
@@ -109,7 +109,7 @@ const models = [
       "Predict Price",
     ],
 
-    demo: "#",
+    demo: null,
     github: "https://github.com/Rana1304/AI_PYTHON",
   },
 ];
